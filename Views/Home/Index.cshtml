@@ -38,6 +38,7 @@
         <div>
             <label for="">Comment(optional):</label>
             <textarea name="Comment" id="" cols="30" rows="10" asp-for="Comment">Enter Optional Comment</textarea>
+            <span asp-validation-for="Comment" class="text-danger"></span><br>
         </div>
         <div>
         <button type="submit">Submit</button>
